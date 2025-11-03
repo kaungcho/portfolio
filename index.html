@@ -358,7 +358,6 @@
       </main>
 
       <footer>
-        Resume generated from your uploaded CV. Add your PDF in `cv/` folder and update CV_LINK in the script.
       </footer>
     </div>
   </div>
@@ -380,7 +379,7 @@
     typeWriter();
 
     // Open CV
-    const CV_LINK = "cv/KaungChoCV_2025_Nov.pdf";
+    const CV_LINK = "kaungchoCV_2025_Nov.pdf";
     function openCv() {
       const a = document.createElement('a'); a.href = CV_LINK; a.target = "_blank"; a.download = CV_LINK.split('/').pop(); document.body.appendChild(a); a.click(); a.remove(); return false;
     }
